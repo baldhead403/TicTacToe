@@ -1,0 +1,73 @@
+
+.jumbotron{
+     background-color:lightblue;
+}
+h1{
+    text-align: center;
+}
+.btn{
+    background-color: white;
+    border-style: ridge;
+}
+.btn:hover{
+    background-color: blue;
+}
+.p1{
+    float: left;
+
+}
+.p2{
+    float: right;
+}
+.draw{
+    float: center;
+}
+.stripes{
+    text-align: center;
+    margin-top: 40px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 15px ;
+    padding-right: 15px;
+    background-color: blue;
+    color: white;
+    
+}
+.scores{
+    text-align: center;
+    margin-top: 40px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 15px ;
+    padding-right: 15px;
+    background-color: orange;
+
+}
+.xplayer{
+    float: left;
+}
+.oplayer{
+    float: right;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+
+}
+#board{
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+#board tr td {
+    width: 125px;
+    height: 125px;
+    border: 5px double black;
+    font-size: 30px;
+    text-align: center;
+}
+#board tr td:hover{
+    background: blue;
+    cursor: -webkit-grab;
+    
+}
